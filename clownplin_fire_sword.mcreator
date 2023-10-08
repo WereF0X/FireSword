@@ -1,0 +1,106 @@
+{
+  "mod_elements": [
+    {
+      "name": "FireSwordAddons",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword_addons",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "FireSwordRightclicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownplinfiresword/procedures/FireSwordRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FireSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/clownplin_fire_sword/models/item/fire_sword.json",
+          "src/main/java/net/mcreator/clownplinfiresword/item/FireSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "FireSwordToolInInventoryTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_sword_tool_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/clownplinfiresword/procedures/FireSwordToolInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.clownplin_fire_sword.fire_sword": "Fire Sword",
+      "item_group.clownplin_fire_sword.fire_sword_addons": "Fire Sword Addons"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "clownplin_fire_sword",
+    "modName": "ClownPlin Fire Sword",
+    "version": "1.0.0",
+    "author": "The_WereF0X",
+    "websiteURL": "https://discord.gg/zGjRZWeSdw",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://discord.gg/zGjRZWeSdw",
+    "modPicture": "637806308919001110",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "The_WereF0X, ClownPlin",
+    "modElementsPackage": "net.mcreator.clownplinfiresword",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
